@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.language-button {
+  cursor: pointer;
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 8px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.selected-button-style {
+  border-color: #0284c7;
+  color: #0284c7;
+}
+
+@media screen and (max-width: 576px) {
+  .language-button {
+    margin: 10px;
+  }
+}

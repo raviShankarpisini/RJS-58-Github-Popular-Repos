@@ -1,0 +1,42 @@
+/* Write your CSS here */
+
+.github-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  background-size: cover;
+}
+
+.filtered-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 60%;
+}
+
+.items-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+  list-style-type: none;
+  /* width: 80%; */
+}
+
+.heading {
+  font-family: 'Lobster';
+  font-weight: bold;
+  font-size: 35px;
+}
+
+@media screen and (max-width: 576px) {
+  .filtered-container {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
